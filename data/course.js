@@ -8,7 +8,7 @@ const DEFAULT_CONFIG = {
   title: "Polygot Programming - TS, Go, Rust",
   subtitle: "The course that teaches you new languages with languages you know.",
   frontendMastersLink: "",
-  description: "This course is designed for those that want to expand their knowledge to other languages by building a tool within the new language, and not reading yet another language tutorial.  This will be a fast paced, high octain learning experience.",
+  description: "This course is designed for those that want to expand their knowledge to other languages by building a tool within the new language, and not reading yet another language tutorial.  This will be a fast paced, high-octane learning experience.",
   keywords: ["ThePrimeagen", "Live Coding", "TypeScript", "JavaScript", "Golang", "RustLang", "Go", "Rust", "TS", "JS"],
   social: {
     twitter: "ThePrimeagen",

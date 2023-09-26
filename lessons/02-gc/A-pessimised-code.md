@@ -95,7 +95,7 @@ generation.
 <br/>
 <br/>
 
-### Vizualizing the GC
+### Visualizing the GC
 ![The Generational GC](./images/GC-Vizualization.svg)
 
 <br/>

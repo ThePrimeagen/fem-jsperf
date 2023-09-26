@@ -71,7 +71,7 @@ Each of these lessons can have a [frontmatter](https://github.com/jonschlinkert/
 - _title_ – If you want the title to be different from the file name, you can specify here what that title should be. Frequently this useful for things where the capitalization would be off e.g. TailwindCSS instead of Tailwindcss. Optional.
 - _description_ – If you want to give individual lessons descriptions for SEO and for Frontend Masters, you can write a brief description here.
 
-Be aware because of how the numbers and letters are stripped out, it is possible to have ambigious paths. `01-welcome/A-intro.md` and `03-welcome/D-intro.md` would resolve to the same thing and only the first one would be visitable.
+Be aware because of how the numbers and letters are stripped out, it is possible to have ambiguous paths. `01-welcome/A-intro.md` and `03-welcome/D-intro.md` would resolve to the same thing and only the first one would be visitable.
 
 ## meta.json
 
