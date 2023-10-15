@@ -106,6 +106,8 @@ head
 <br/>
 
 ### Lets measure the results
+* Lets checkout the memory and performance profilers
+* Lets find our new ~20%
 
 <br/>
 <br/>

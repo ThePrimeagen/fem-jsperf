@@ -80,26 +80,8 @@ open the webpage to see the results
 <br/>
 <br/>
 
-### Repeat, but with old version
-
-```bash
-git stash
-```
-
-start the node server
-```bash
-tsc && node dist/src/server.js --logPath /tmp/no-opt
-```
-
-start clients
-```bash
-cargo run --release -- -q 1000 -g 100000 -t 2
-```
-
-open the webpage to see the results
-* localhost:42068
-* enter in file name, /tmp/no-opt
-
+### Lets find our new 20%
+Lets do the same exercise that we did in the beginning and find our ~20%
 
 <br/>
 <br/>
