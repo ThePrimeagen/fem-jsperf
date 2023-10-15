@@ -27,7 +27,7 @@ To launch the project, you need two commands to run
 
 #### The Server
 ```
-tsc && node --inspect dist/server.js --logPath /tmp/foo
+tsc && node --inspect dist/src/server.js --logPath /tmp/foo
 ```
 
 #### The Client

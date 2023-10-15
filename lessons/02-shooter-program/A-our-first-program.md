@@ -5,11 +5,16 @@ description: "The greatest chat program i know"
 
 ### Lets Chat About Shooter
 We will walk through the shooter program
-1. What does the program do?
-1. How to run its tests
-1. How to look at its performance metrics
-1. How to use the inspector
-1. Don't forget about ulimit
+
+Here is a pictoral version of the program
+
+![Shooters](./images/bullet_1.png)
+![Shooters](./images/bullet_2.png)
+![Shooters](./images/bullet_3.png)
+![Shooters](./images/bullet_4.png)
+![Shooters](./images/bullet_5.png)
+![Shooters](./images/bullet_6.png)
+![Shooters](./images/bullet_7.png)
 
 <br/>
 <br/>
@@ -27,4 +32,22 @@ We will walk through the shooter program
 <br/>
 <br/>
 
-###
+### Lets go into the code
+a decent amount of javascript, we will move fast, we don't need to be to deep
+into the weeds
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>

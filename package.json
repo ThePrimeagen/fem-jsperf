@@ -16,6 +16,7 @@
     "next": "^12.0.7",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "title-case": "^3.0.3"
+    "title-case": "^3.0.3",
+    "uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.32.0"
   }
 }

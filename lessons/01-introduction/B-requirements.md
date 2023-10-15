@@ -1,6 +1,6 @@
 ---
-title: "Perf Basics"
-description: "The basic knowledge you should know when attempting perf improvements"
+title: "Requirements"
+description: "What you need to get started"
 ---
 
 ### Rust
