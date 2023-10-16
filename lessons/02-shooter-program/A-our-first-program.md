@@ -51,3 +51,28 @@ into the weeds
 <br/>
 <br/>
 <br/>
+
+### The Problem Statement
+Internal reports from the CI server has shown that our game doesn't deliver
+frames on time.
+
+* On time frame: 15, 16, or 17 ms frames.  This is typescript after all, precision isn't an option
+* We expect below 15% frames to over or underflow
+* It is your job to fix it, or you don't have a job... and that sucks
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
