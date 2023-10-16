@@ -66,6 +66,15 @@ open the webpage to see the results
 
 <br/>
 <br/>
+
+Also made a nice little utility to sum up and just give the ratio
+
+```bash
+go run ./cmd/cli/main.go <path-to-file>
+```
+
+<br/>
+<br/>
 <br/>
 <br/>
 <br/>
@@ -80,8 +89,8 @@ open the webpage to see the results
 <br/>
 <br/>
 
-### Lets find our new 20%
-Lets do the same exercise that we did in the beginning and find our ~20%
+### Well... we need better perf!
+This perf just isn't acceptable!  we need better performance!
 
 <br/>
 <br/>
@@ -100,7 +109,7 @@ Lets do the same exercise that we did in the beginning and find our ~20%
 <br/>
 
 ### Did we make it faster?!?!?!
-YES!  but not by that much.. :(
+Well... the perf graphs say yes, but did we meaningfully change performance?  No
 
 <br/>
 <br/>

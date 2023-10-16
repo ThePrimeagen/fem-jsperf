@@ -49,8 +49,11 @@ If you stick through the whole course you will learn a ton about _HOW_
 javascript works
 
 * These are transferrable skills.  Any other GC based language will have similar concepts
+  * Its also transferrable between bun and node and the browser
+  * We will not talk about the dom today
 * It will make you write better code.  Better code in this case delivers what
   the customer wants but smoother, crispier, and smothered in coconut oil
+
 
 <br/>
 <br/>
