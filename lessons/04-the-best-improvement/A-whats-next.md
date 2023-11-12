@@ -27,7 +27,8 @@ at the profiler and try to make it faster.  What if there is nothing left?
 Stop writing javascript.  I mean this as literal as possible.  Lets relook at
 our profiles and make some observations.
 
-* we are largly idle
+* we still have lots of idle
+* bits on websocket are there
 * we produce most of our memory from our websocket program
 
 <br/>
@@ -58,8 +59,12 @@ This upgrade is going to take some effort, so lets do this!
 <br/>
 <br/>
 
-### Lets find our new 20%!
-Hopefully we see some great improvements!
+### Lets combine!
+Lets checkout the relative change in performance with these optimizations.  Was
+this change ackshually worth it?
+* second vs second + third
+* first vs first + third
+* first + second + third vs the others
 
 <br/>
 <br/>

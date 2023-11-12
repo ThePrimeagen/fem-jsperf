@@ -9,6 +9,12 @@ so it should be pretty straight forward.
 
 <br/>
 <br/>
+
+**lets put this on another branch**
+```
+git checkout -b first-opt
+```
+
 <br/>
 <br/>
 <br/>
@@ -22,6 +28,34 @@ so it should be pretty straight forward.
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
+
+### Wow, such edit
+correct, the power of vim.
+
+<br/>
+<br/>
+
+if you wish to become cool checkout the [Vim course](https://frontendmasters.com/courses/vim-fundamentals/) on FEM.
+* not free, but awesome
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
 
 ### Lets check the performance tab!
 Did we change anything?
@@ -63,15 +97,6 @@ cargo run --release -- -q 1000 -g 100000 -t 2
 open the webpage to see the results
 * localhost:42068
 * enter in file name, /tmp/first-opt
-
-<br/>
-<br/>
-
-Also made a nice little utility to sum up and just give the ratio
-
-```bash
-go run ./cmd/cli/main.go <path-to-file>
-```
 
 <br/>
 <br/>

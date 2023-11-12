@@ -3,18 +3,69 @@ title: "Lets Profile!"
 description: "profiling the code can give us great insight into what's fast and slow"
 ---
 
-### Lets Profile!
-Before we profile our application with chrome, lets take a look at the perf viz
-i have built specifically for this program and talk through it
+### How do we start?
+what do you all think is slow?
 
-lets launch 2 terminal applications
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+### The Best Way To Start
+Measure!!
+* but there are more than one way to measure
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+### Before we measure via chrome
+lets take a look at the perf viz i have built specifically for this program and
+talk through it
+
+<br/>
+<br/>
+
+lets launch 3 terminal applications
+
+<br/>
+<br/>
 
 The Server
 ```bash
 cd shooter
-npm i
-tsc && node --inspect dist/src/server.js --logPath /tmp/testing
+tsc && node dist/src/server.js --logPath /tmp/testing
 ```
+
+<br/>
+<br/>
 
 The Client
 ```bash
@@ -24,27 +75,16 @@ cargo run --release -- -q 500 -g 100000 -t 2
 
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+
+The Viz Server
+```bash
+cd shooter
+go run cmd/main.go
+```
 <br/>
 
-### Lets play a game
-Lets find the spot in which we are dropping +20% frames.
-* Once we find it, lets take a nice long measurement and then keep that window
-  open to go back to later
-
-* If rerun the application it will delete your previous results based on the
-  log file passed in.  so be careful
+Then open a browser to localhost:42068 and put into the text box the file path
+you provided for the logging, which should be `/tmp/testing`
 
 <br/>
 <br/>
@@ -62,44 +102,65 @@ Lets find the spot in which we are dropping +20% frames.
 <br/>
 <br/>
 
-#### Chrome debugger
-Ok now that we have a good understanding of our 20% marker, lets try to make
+### A little searching is in order.
+lets try to find a point in which our program starts to spiral out of control
+and no games can be played at all.
+
+* for me its at about 1000 connections where i will start to spiral out of control
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+### Chrome debugger
+Ok now that we have a good understanding of our performance, lets try to make
 this program faster.  The simplest way to do this is "Hot spot" optimizing
 
-Now be careful, this type of optimization has its draw backs
+<br/>
+<br/>
 
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+Now be careful, this type of optimization has its draw backs
+* quick netflix story with [Yunong](https://twitter.com/YunongX)
+
 <br/>
 <br/>
 <br/>
 
 ### Launch the program, but with --inspect
 
-window 1
+terminal 1
 ```bash
 cd shooter
-npm i
 tsc && node --inspect dist/src/server.js --logPath /tmp/testing
 ```
 
-window 2
+**WARNING: Don't forget ulimit**
+
+<br/>
+
+terminal 2
 ```bash
 cd shooter
-cargo run --release -- -q 2000 -g 100000 -t 2
+cargo run --release -- -q 1000 -g 100000 -t 2
 ```
 
 #### TO CHROME!!!
+
+![Performance Tab](./images/performance.png)
+
 If you don't have the performance tab, please download the latest version of
 chrome to get it
 
@@ -120,8 +181,8 @@ chrome to get it
 <br/>
 
 ### Lets Profile Performance
-Ok, lets record small amount of time and analyze the results.  I prefer to let
-things run for a minute before continuing on.
+I only profiled a short period of time due to the tool.  if you go to long i
+have hit some weird issues with chrome
 
 <br/>
 <br/>

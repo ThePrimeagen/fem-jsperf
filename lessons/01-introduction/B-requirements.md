@@ -10,6 +10,9 @@ The client for testing is written in rust.  Rust is required
 
 google: Install Rustlang
 
+<br/>
+<br/>
+
 ### Golang
 The viz for some of the data is done with a go server, you need Go 1.21 or
 higher
@@ -18,9 +21,8 @@ higher
 
 google: Install Golang
 
-#### Air
-air will hot refresh our server, though we will never use it, so you can just
-execute the go commands to launch the data server
+<br/>
+<br/>
 
 ### The Project
 This will be an important part of the workshop!  so please get it
@@ -30,5 +32,25 @@ https://github.com/ThePrimeagen/js-perf-example
 
 ```
 git clone git@github.com:ThePrimeagen/js-perf-example.git
+cd js-perf-example
+cd shooter
+npm i
+cargo build --release
+vim . # or whatever not cool editor you use
 ```
 
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>

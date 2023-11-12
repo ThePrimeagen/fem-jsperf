@@ -1,9 +1,14 @@
 ---
-title: "Your Program Is Idle"
-description: "But is it ackshually idle?"
+title: "I Promise Performance"
+description: "but are you a liar?"
 ---
 
-### Why are we idle?
+### Concurrency is awesome and promises enable it!
+Before we begin, lets branch off of `master` again
+
+```bash
+git checkout -b second-opt
+```
 
 <br/>
 <br/>
@@ -107,7 +112,9 @@ head
 
 ### Lets measure the results
 * Lets checkout the memory and performance profilers
-* Lets find our new ~20%
+* Zoom in on the remaining promises... what is happening here?
+* Make the change and profile again
+* Merge first opt and lets see combined performance
 
 <br/>
 <br/>
@@ -126,10 +133,34 @@ head
 <br/>
 
 ### Was this surprising?
-This is the cost of the "Runtime."  You probably have heard this term since bun
-has come out, and they keep talking about this "zig" thing.
+* node allows tons of hooks and ways to debug your async processes
+* allows for analytics and insights as well
+* this has a real cost, every promise has a real cost
+  - its not just cpu time while processing the promises, but its also gc
+* functions just marked as async have a real cost
+* back to callback hell?
+  - i would go to cb hell on highly perf sensitive parts.  Notice we didn't
+    even change how we wait for sockets to be open.
 
-* Lets explain the runtime
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+### Lets combine first-opt and second-opt
+Lets see if having first-opt has a bigger impact now that we have reduced async
+and gc costs.
 
 <br/>
 <br/>

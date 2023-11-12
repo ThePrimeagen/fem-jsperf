@@ -24,8 +24,8 @@ like all answers, it depends
 <br/>
 <br/>
 
-### Depends on if you have no choice for another language
-if you have no choice, there is still fast and slow javascript
+### Speed is relative
+* when we say fast...
 
 <br/>
 <br/>
@@ -43,7 +43,7 @@ if you have no choice, there is still fast and slow javascript
 <br/>
 <br/>
 
-### Key Note
+### What this course is about
 This course is as much a "performance" course as its a javascript fundamentals.
 If you stick through the whole course you will learn a ton about _HOW_
 javascript works
