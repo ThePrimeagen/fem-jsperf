@@ -284,10 +284,12 @@ Array#filter from here on out
 <br/>
 <br/>
 
-### Lets create a nice example of GC
-lets observe gc both minor and major!
-
-to js-perf-exampels/gc-example!
+### Some Notes
+Major and Minor GCs do have some parallelism to it and even runs while
+JavaScript is running.  The article linked goes into great detail about it and
+its quite clever.  But remember, if you have a program getting tons of messages
+from the internet, and you are getting bogged down by GC, and its not a
+powerful machine, like mine, GC can have a more disproportional effect
 
 <br/>
 <br/>

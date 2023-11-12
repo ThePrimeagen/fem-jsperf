@@ -33,7 +33,7 @@ problem with code that is written sloppy over the course of many functions
 ### Sets of tools
 * performance and memory tabs are great
 * node's async stuff is slow (for now)
-* memory is a good indication to where problems are
+* memory is a good indication to where problems could be
 * GC time a good indicator of issues
 * Sets are not always fast
 
@@ -56,6 +56,8 @@ problem with code that is written sloppy over the course of many functions
 ### Want more?
 A lot of what we discussed here has been explored on my twitch channel.  so
 there is always a chance i'll be doing perf work on twitch if you want to join.
+
+[https://twitch.tv/ThePrimeagen](https://twitch.tv/ThePrimeagen)
 
 <br/>
 <br/>
