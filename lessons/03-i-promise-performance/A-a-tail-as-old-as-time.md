@@ -7,7 +7,7 @@ description: "but are you a liar?"
 Before we begin, lets branch off of `master` again
 
 ```bash
-git checkout -b second-opt
+git checkout -b so # second-opt already exists and is complete
 ```
 
 <br/>
@@ -87,11 +87,11 @@ to the event loop!
 Lets draw out our idea before we implement it, here is my basic steps in my
 head
 
-* pull out the timer and make it return only numbers (easily testable)
-* create a timer that maps expiry time to callbacks
-* update the game loop so that it is a function, not a while async loop
-* ...
-* profit (less memory)
+1. pull out the timer and make it return only numbers (easily testable)
+1. create a timer that maps expiry time to callbacks
+1. update the game loop so that it is a function, not a while async loop
+1. ...
+1. profit (less memory (and hopefully less cpu (lisp)))
 
 
 <br/>
@@ -114,6 +114,7 @@ head
 * Lets checkout the memory and performance profilers
 * Zoom in on the remaining promises... what is happening here?
 * Make the change and profile again
+* Lets see if it makes a material impact on ackshual game performance
 * Merge first opt and lets see combined performance
 
 <br/>

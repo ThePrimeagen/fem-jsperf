@@ -12,7 +12,7 @@ so it should be pretty straight forward.
 
 **lets put this on another branch**
 ```
-git checkout -b first-opt
+git checkout -b fo # first-opt already exists
 ```
 
 <br/>
@@ -56,6 +56,34 @@ if you wish to become cool checkout the [Vim course](https://frontendmasters.com
 <br/>
 <br/>
 
+### lets make sure we have successfully did this refactor
+```bash
+npm run test
+```
+
+the integration test is slow, and its designed for linux (may work on mac (i
+haven't tested (chad move)))
+
+```bash
+lsof -ti :42000 | xargs kill -9
+```
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
 
 ### Lets check the performance tab!
 Did we change anything?
@@ -79,43 +107,15 @@ Did we change anything?
 ### Ok lets see if we PRACTICALLY see anything!
 Lets run our little viz program!
 
-start our viz server
+if your viz server isn't running,
 ```bash
 go run ./cmd/main.go # you can also just run air
 ```
 
-start the node server
+use the run script to just run 3 sets of games at 500, 1000, 2000
 ```bash
-tsc && node dist/src/server.js --logPath /tmp/first-opt
+./run /tmp/fo
 ```
-
-start clients
-```bash
-cargo run --release -- -q 1000 -g 100000 -t 2
-```
-
-open the webpage to see the results
-* localhost:42068
-* enter in file name, /tmp/first-opt
-
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
-### Well... we need better perf!
-This perf just isn't acceptable!  we need better performance!
 
 <br/>
 <br/>
@@ -134,7 +134,7 @@ This perf just isn't acceptable!  we need better performance!
 <br/>
 
 ### Did we make it faster?!?!?!
-Well... the perf graphs say yes, but did we meaningfully change performance?  No
+...
 
 <br/>
 <br/>

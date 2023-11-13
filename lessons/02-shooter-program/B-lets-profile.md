@@ -47,6 +47,11 @@ Measure!!
 <br/>
 
 ### Before we measure via chrome
+
+**WARNING: Don't forget ulimit**
+
+<br/>
+
 lets take a look at the perf viz i have built specifically for this program and
 talk through it
 
@@ -103,10 +108,29 @@ you provided for the logging, which should be `/tmp/testing`
 <br/>
 
 ### A little searching is in order.
-lets try to find a point in which our program starts to spiral out of control
-and no games can be played at all.
+Lets do a small step ladder approach
 
-* for me its at about 1000 connections where i will start to spiral out of control
+* run at 500 concurrent games
+* run at 1000 concurrent games
+* run at 2000 concurrent games
+
+<br/>
+<br/>
+
+**please save the log files**
+```bash
+--logFile /tmp/master-500
+--logFile /tmp/master-1000
+--logFile /tmp/master-1500
+```
+
+we will want to refer to these later
+
+<br/>
+<br/>
+
+We are doing a very crude "step ladder" test to see how our ratio grows with
+more games
 
 <br/>
 <br/>
@@ -146,8 +170,6 @@ terminal 1
 cd shooter
 tsc && node --inspect dist/src/server.js --logPath /tmp/testing
 ```
-
-**WARNING: Don't forget ulimit**
 
 <br/>
 

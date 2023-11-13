@@ -24,5 +24,29 @@ description: "before we continue, lets make sure we are on the same page"
 <br/>
 <br/>
 
+### I am not good at planning
+* every step of the way will be in branches available on the remote
+- first opt, second opt, third opt
+* I don't think the programming is the important part, its fine to just observe
 
+<br/>
+<br/>
+
+so if you fall behind or cannot make something work that is fine.
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 

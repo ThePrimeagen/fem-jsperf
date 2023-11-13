@@ -24,6 +24,13 @@ google: Install Golang
 <br/>
 <br/>
 
+### Please install latest node 20
+we want near similar results.  versions of node can have vastly different
+results
+
+<br/>
+<br/>
+
 ### The Project
 This will be an important part of the workshop!  so please get it
 

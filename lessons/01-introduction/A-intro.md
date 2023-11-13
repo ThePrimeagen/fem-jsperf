@@ -45,7 +45,7 @@ like all answers, it depends
 
 ### What this course is about
 This course is as much a "performance" course as its a javascript fundamentals.
-If you stick through the whole course you will learn a ton about _HOW_
+If you stick through the whole course you will learn a about _how_
 javascript works
 
 * These are transferrable skills.  Any other GC based language will have similar concepts
