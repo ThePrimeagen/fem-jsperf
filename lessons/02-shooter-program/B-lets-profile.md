@@ -59,6 +59,7 @@ failed to connect to server: Io(Os { code: 24, kind: Uncategorized, message: “
 Set a ulimit:
 ```bash
 ulimit -u some_big_number
+ulimit -n some_big_number # on Mac
 ```
 
 
@@ -164,6 +165,11 @@ more games
 ### Chrome debugger
 Ok now that we have a good understanding of our performance, lets try to make
 this program faster.  The simplest way to do this is "Hot spot" optimizing
+
+<br/>
+<br/>
+
+**Chrome Devices:** chrome://inspect/#devices
 
 <br/>
 <br/>
