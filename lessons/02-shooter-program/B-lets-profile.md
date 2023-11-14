@@ -49,6 +49,18 @@ Measure!!
 ### Before we measure via chrome
 
 **WARNING: Don't forget ulimit**
+<br/>
+If you get the issue:
+```bash
+failed to connect to server: Io(Os { code: 24, kind: Uncategorized, message: “Too many open files” })
+```
+<br/>
+
+Set a ulimit:
+```bash
+ulimit -u some_big_number
+```
+
 
 <br/>
 
