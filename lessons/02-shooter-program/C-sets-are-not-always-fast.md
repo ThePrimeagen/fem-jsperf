@@ -3,6 +3,25 @@ title: "Don't Always Reach For Set"
 description: "Where and why sets are not always the right answer"
 ---
 
+### Our first optimization
+lets take a look at `update`
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
 ### Map And Set Are Not Always The Right Answer
 This may sound a bit counter intuitive, but Set/Map may not always be the best
 option...

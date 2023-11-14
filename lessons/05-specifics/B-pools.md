@@ -24,7 +24,7 @@ and over again?
 <br/>
 
 ### Just a heads up
-* this change will not make an observable impact in our program, but there are plenty of programs i have created where it was the _LARGEST_ improvement for the server.
+* this change will likely not make an observable impact in our program, but there are plenty of programs i have created where it was the _LARGEST_ improvement for the server.
 * we will make the memory chart change, but the opportunity size is just small.
 
 <br/>
@@ -67,7 +67,7 @@ Memory Pool!
 <br/>
 
 ### What should we memory pool?
-Well lets pick out the most common items that we produce, bullets.
+* lets pick out our most commonly created object
 
 <br/>
 <br/>
@@ -105,30 +105,10 @@ updates_per_second arrays!`
 <br/>
 <br/>
 
-
 ### How do we know we are faster?
 * Lets look at the memory sampler to see if we made progress
 * lets look at the ticks per second program and see if we did better
 * REMEMBER: We are not expecting much wins anymore
-
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
-### What about testing linked lists?
-array shifting is really slow... we could try LL?
 
 <br/>
 <br/>

@@ -3,6 +3,26 @@ title: "GC"
 description: "A brief introduction into the GC"
 ---
 
+### Before we move on...
+i want to give an entirely too brief introduction into the gc
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
 ### Garbage Collection
 These terms are V8 specific (sorry bun) but i bet there are similar concepts in
 JSC.  These definitions have been taken from [V8's Blog on GC](https://v8.dev/blog/trash-talk)
@@ -82,6 +102,27 @@ our original object, `0xdeadbeef`, has been completely abandoned.
 <br/>
 <br/>
 <br/>
+
+### There are two types of GC
+* Major: walks all the objects from the root checking for what to be removed (typically slow)
+* Minor: walks all the "new" objects from special roots checking for what to be removed (typically fast)
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
 
 ### Major GC: Marking and Sweeping
 In javascript there are "root" objects.
@@ -167,7 +208,7 @@ behind by dead objects." - v8 trash talk
 <br/>
 <br/>
 
-### Minor GC (Scavenger)
+### Minor GC (Scavenge)
 This is the second form of GC in V8 and this follows the "The Generational
 Hypothesis"
 
@@ -220,7 +261,7 @@ GC.  Only the "alive objects" are copied over to "To Space"
 * Major GC (Full Mark-Compact): A stop the world, full heap crawl of all the
 objects created
   * typically more rare
-  * typically takes an order of magnitude longer than Minor
+  * typically takes significantly longer than Minor
   * Sometimes has to compact a memory region due to fragmentation
 
 * Minor GC (Scavenger): GC collecting only from the "nursery" or young
@@ -267,6 +308,8 @@ generation.
 Hopefully the point that got across.  `{}` are a bit more expensive than you
 may have realized.  Perhaps you will think more about Array#map and
 Array#filter from here on out
+* really short lived objects can be cleaned efficiently
+* longer lived, across a couple promises, those can be worse overall
 
 <br/>
 <br/>
@@ -290,6 +333,8 @@ JavaScript is running.  The article linked goes into great detail about it and
 its quite clever.  But remember, if you have a program getting tons of messages
 from the internet, and you are getting bogged down by GC, and its not a
 powerful machine, like mine, GC can have a more disproportional effect
+
+![GC Marking](./images/gc-marking.png)
 
 <br/>
 <br/>

@@ -142,26 +142,7 @@ head
 * back to callback hell?
   - i would go to cb hell on highly perf sensitive parts.  Notice we didn't
     even change how we wait for sockets to be open.
-
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
-### Lets combine first-opt and second-opt
-Lets see if having first-opt has a bigger impact now that we have reduced async
-and gc costs.
+* just because its a "hotspot" doesn't mean its meaningfully a hot spot in the chrome debugger
 
 <br/>
 <br/>

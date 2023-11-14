@@ -32,14 +32,17 @@ Lets make this function fast, but specific optimizations to this program.
 
 **lets use this information and craft a better update function**
 * lets come up with three rules that make sense for our game
+  - if b && b2 exists, only check bullet collision
+  - if b check p2 collision
+  - if b2 check p collision
 
 <br/>
 <br/>
 
-**branch off of `fts`**
+**branch off of `fto`**
 
 ```bash
-➜  shooter git:(fts) ✗ git checkout -b blazing-fast
+git checkout -b blazingly-fast
 ```
 
 <br/>
@@ -59,9 +62,9 @@ Lets make this function fast, but specific optimizations to this program.
 <br/>
 
 ### It may have made a difference, perhaps a tiny one
-why would we want to do this?
+why would we want to do this?  how can you apply this?
 
-* and there is still more we can do! (to the profiler!)
+* should we try for more?
 
 <br/>
 <br/>

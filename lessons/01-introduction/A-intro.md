@@ -3,6 +3,26 @@ title: "JavaScwipt Perfowmance"
 description: "lets make javascript fast"
 ---
 
+### Lets start off with a quote
+![Casey](./images/casey.png)
+[Casey](https://twitter.com/cmuratori)
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
 ### Welcome
 JavaScript Performance, is this an oxymoron?
 
@@ -53,6 +73,8 @@ javascript works
   * We will not talk about the dom today
 * It will make you write better code.  Better code in this case delivers what
   the customer wants but smoother, crispier, and smothered in coconut oil
+* we will not deep dive into `perf` or `chrome-tracing` or `v8-tracing`
+* we will talk about "micro" optizimations (property ordering, monomorphism)
 
 
 <br/>
