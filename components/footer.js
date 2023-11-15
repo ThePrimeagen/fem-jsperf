@@ -1,5 +1,5 @@
 import React from "react";
-import Gh from "./github";
+import Youtube from "./youtube";
 import Tw from "./twitter";
 import Twitch from "./twitch";
 
@@ -24,7 +24,7 @@ export default function Footer({ twitter, twitch, youtube }) {
         {youtube ? (
           <li className="social">
             <a href={`https://youtube.com/${youtube}`}>
-              <Twitch />
+              <Youtube />
             </a>
           </li>
         ) : null}
