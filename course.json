@@ -13,5 +13,5 @@
   },
   "description": "A course about making javascript fast (er than it was) again",
   "keywords": ["ThePrimeagen", "Live Coding", "TypeScript", "JavaScript", "Performance", "TS"],
-  "productionBaseUrl": "/blazingly-fast-js"
+  "productionBaseUrl": "/fem-jsperf"
 }
